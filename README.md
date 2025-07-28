@@ -13,14 +13,18 @@ Run the `Assignment-2/task_2.py` for personalized greeting
 The program accepts first name and last name during runtime and produces a welcome message with the provided name.
 
 ### Mac or Linux
-`python3 Assignment-1/task_1.py`
+```
+python3 Assignment-1/task_1.py
 
-`python3 Assignment-1/task_2.py`
+python3 Assignment-1/task_2.py
+```
 
 ### Windows
-`python Assignment-1/task_2.py`
+```
+python Assignment-1/task_1.py
 
-`python Assignment-1/task_2.py` 
+python Assignment-1/task_2.py
+``` 
 
 
 # Assignment 2
@@ -33,14 +37,18 @@ The program accepts number during run time.
 Run the `Assignment-2/task_2.py` to get the sum of digits from 1 to 50.
 
 ### Mac or Linux
-`python3 Assignment-2/task_1.py`
+```
+python3 Assignment-2/task_1.py
 
-`python3 Assignment-2/task_2.py`
+python3 Assignment-2/task_2.py
+```
 
 ### Windows
-`python Assignment-2/task_1.py`
+```
+python Assignment-2/task_1.py
 
-`python Assignment-2/task_2.py`
+python Assignment-2/task_2.py
+```
 
 
 # Assignment 3
@@ -55,18 +63,22 @@ Run the `Assignment-3/task_2.py` to display multiple mathematical operations:
 - Sine
 
 ### Mac or Linux
-`python3 Assignment-3/task_1.py`
+```
+python3 Assignment-3/task_1.py
 
-`python3 Assignment-3/task_2.py`
+python3 Assignment-3/task_2.py
+```
 
 ### Windows
-`python Assignment-3/task_1.py`
+```
+python Assignment-3/task_1.py
 
-`python Assignment-3/task_2.py`
+python Assignment-3/task_2.py
+```
 
 # Assignment 4
 
-Navigate inside the `Assignment-4` directory
+**Note:** Navigate inside the `Assignment-4` directory
 ## Task 1: Read a File and Handle Errors
 This reads the `sample.txt` present inside the files folder and then prints the result line by line.
 Additionally you will see Line 1: text, for each line the number changes. The program throws error if sample.txt not found inside the files directory.
@@ -75,9 +87,15 @@ Additionally you will see Line 1: text, for each line the number changes. The pr
 This accepts user input and triggers a function `write_to_file()` that creates a new file `output.txt`. then it prompts for more input once provided, it calls `append_to_file()` that appends/adds data to existing `output.txt`. Then `read_from_file()` is triggers that reads and displays the data.
 
 ### Mac or Linux
-`python3 task_1.py`
-`python3 task_2.py`
+```
+python3 task_1.py
+
+python3 task_2.py
+```
 
 ### Windows
-`python task_1.py`
-`python task_2.py`
+```
+python task_1.py
+
+python task_2.py
+```
