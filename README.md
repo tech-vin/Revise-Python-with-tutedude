@@ -99,3 +99,30 @@ python task_1.py
 
 python task_2.py
 ```
+
+# Assignment 5
+
+**Note:** Navigate inside the `Assignment-5` directory
+
+## Task 1: Create a Dictionary of Student Marks
+Using file handling knowldge from the previous assignment, wrote a program that stores student name and marks on the file and fetches as per the requirement. User can add more data, fetch student's marks with their name.
+
+## Task 2: Demonstrate List Slicing 
+- Creates a list of numbers from 1 to 10.
+- Extracts the first five elements from the list.
+- Reverses these extracted elements.
+- Prints both the extracted list and the reversed list
+
+### Mac or Linux
+```
+python3 task_1.py
+
+python3 task_2.py
+```
+
+### Windows
+```
+python task_1.py
+
+python task_2.py
+```
