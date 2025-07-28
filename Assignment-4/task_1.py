@@ -1,6 +1,4 @@
 # Task 1: Read a file and Handle Errors
-import os
-
 FILE_PATH="files/sample.txt"
 try:
     with open(FILE_PATH, 'r') as f:

@@ -64,3 +64,20 @@ Run the `Assignment-3/task_2.py` to display multiple mathematical operations:
 
 `python Assignment-3/task_2.py`
 
+# Assignment 4
+
+Navigate inside the `Assignment-4` directory
+## Task 1: Read a File and Handle Errors
+This reads the `sample.txt` present inside the files folder and then prints the result line by line.
+Additionally you will see Line 1: text, for each line the number changes. The program throws error if sample.txt not found inside the files directory.
+
+## Task 2: Write and Append Data to a File
+This accepts user input and triggers a function `write_to_file()` that creates a new file `output.txt`. then it prompts for more input once provided, it calls `append_to_file()` that appends/adds data to existing `output.txt`. Then `read_from_file()` is triggers that reads and displays the data.
+
+### Mac or Linux
+`python3 task_1.py`
+`python3 task_2.py`
+
+### Windows
+`python task_1.py`
+`python task_2.py`
