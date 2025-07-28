@@ -14,10 +14,12 @@ The program accepts first name and last name during runtime and produces a welco
 
 ### Mac or Linux
 `python3 Assignment-1/task_1.py`
+
 `python3 Assignment-1/task_2.py`
 
 ### Windows
 `python Assignment-1/task_2.py`
+
 `python Assignment-1/task_2.py` 
 
 
@@ -32,10 +34,12 @@ Run the `Assignment-2/task_2.py` to get the sum of digits from 1 to 50.
 
 ### Mac or Linux
 `python3 Assignment-2/task_1.py`
+
 `python3 Assignment-2/task_2.py`
 
 ### Windows
 `python Assignment-2/task_1.py`
+
 `python Assignment-2/task_2.py`
 
 
@@ -52,9 +56,11 @@ Run the `Assignment-3/task_2.py` to display multiple mathematical operations:
 
 ### Mac or Linux
 `python3 Assignment-3/task_1.py`
+
 `python3 Assignment-3/task_2.py`
 
 ### Windows
 `python Assignment-3/task_1.py`
+
 `python Assignment-3/task_2.py`
 
