@@ -46,4 +46,21 @@ Run the `sumofint.py` to get the sum of digits from 1 to 50.
 ### Windows
 `python sumofint.py`
 
+# Assignment 3
+
+## Task 1: calculate factorial using function
+Run the `assignment3.py` to display factorial of a number. by default 5 is hard coded, you can change the number in the code to make changes.
+
+## Task 2:
+Run the `assignment3.py` to display multiple mathematical operations:
+- Square root
+- Logarithm
+- Sine
+
+### Mac or Linux
+`python3 assignment3.py`
+
+### Windows
+`python assignment3.py`
+
 
