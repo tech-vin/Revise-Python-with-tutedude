@@ -1,5 +1,20 @@
 from tkinter import *
 
+def click(event):
+    text = event.widget.cget("text")
+    if text == "=":
+        try:
+            result = eval(str(textspace.get()))
+            textspace.delete(0, END)
+            textspace.insert(END, result)
+        except Exception as ep:
+            textspace.delete(0, END)
+            textspace.insert(END, "error")
+    elif text =="CLEAR":
+        textspace.delete(0, END)
+    else:
+        textspace.insert(END, text)
+
 window = Tk()
 window.geometry("300x420")
 window.title("Calculator")
@@ -22,14 +37,12 @@ bottomFrame = Frame(
 )
 bottomFrame.pack(side=BOTTOM)
 
-textspace = Text(
+textspace = Entry(
     topfame,
-    height=2,
     width=30,
-    padx=2,
-    pady=2,
     borderwidth=5,
-    font=('Arial 15')
+    font=('Arial 15'),
+    justify=RIGHT
 )
 textspace.pack(fill=Y, expand=True)
 
@@ -46,6 +59,8 @@ clearBtn = Button(
     borderwidth=5
 )
 clearBtn.grid(row=0, columnspan=3, sticky='nsew')
+clearBtn.bind('<Button-1>', click)
+
 addBtn = Button(
     bottomFrame,
     text='+',
@@ -55,6 +70,7 @@ addBtn = Button(
     font=("Arial 15"),
 )
 addBtn.grid(row=0, column=3)
+addBtn.bind('<Button-1>', click)
 
 # Row --> 1
 btn1 = Button(
@@ -67,6 +83,7 @@ btn1 = Button(
 
 )
 btn1.grid(row=1, column=0)
+btn1.bind('<Button-1>', click)
 
 btn2 = Button(
     bottomFrame,
@@ -78,6 +95,7 @@ btn2 = Button(
 
 )
 btn2.grid(row=1, column=1)
+btn2.bind('<Button-1>', click)
 
 btn3 = Button(
     bottomFrame,
@@ -89,6 +107,7 @@ btn3 = Button(
 
 )
 btn3.grid(row=1, column=2)
+btn3.bind('<Button-1>', click)
 
 subBtn = Button(
     bottomFrame,
@@ -99,6 +118,7 @@ subBtn = Button(
     borderwidth=5
 )
 subBtn.grid(row=1, column=3)
+subBtn.bind('<Button-1>', click)
 
 btn4 = Button(
     bottomFrame,
@@ -110,6 +130,7 @@ btn4 = Button(
 
 )
 btn4.grid(row=2, column=0)
+btn4.bind('<Button-1>', click)
 
 btn5 = Button(
     bottomFrame,
@@ -121,6 +142,7 @@ btn5 = Button(
 
 )
 btn5.grid(row=2, column=1)
+btn5.bind('<Button-1>', click)
 
 btn6 = Button(
     bottomFrame,
@@ -132,16 +154,18 @@ btn6 = Button(
 
 )
 btn6.grid(row=2, column=2)
+btn6.bind('<Button-1>', click)
 
 mulBtn = Button(
     bottomFrame,
-    text="X",
+    text="*",
     font=("Arial 15"),
     width=custom_width,
     height=custom_height,
     borderwidth=5
 )
 mulBtn.grid(row=2, column=3)
+mulBtn.bind('<Button-1>', click)
 
 # Row --> 3
 btn7 = Button(
@@ -154,6 +178,7 @@ btn7 = Button(
 
 )
 btn7.grid(row=3, column=0)
+btn7.bind('<Button-1>', click)
 
 btn8 = Button(
     bottomFrame,
@@ -165,6 +190,7 @@ btn8 = Button(
 
 )
 btn8.grid(row=3, column=1)
+btn8.bind('<Button-1>', click)
 
 btn9 = Button(
     bottomFrame,
@@ -176,6 +202,7 @@ btn9 = Button(
 
 )
 btn9.grid(row=3, column=2)
+btn9.bind('<Button-1>', click)
 
 divBtn = Button(
     bottomFrame,
@@ -186,6 +213,7 @@ divBtn = Button(
     borderwidth=5
 )
 divBtn.grid(row=3, column=3)
+divBtn.bind('<Button-1>', click)
 
 # row --> 4
 eqBtn = Button(
@@ -197,5 +225,6 @@ eqBtn = Button(
 
 )
 eqBtn.grid(row=4, columnspan=4, sticky='nsew')
+eqBtn.bind('<Button-1>', click)
 
 window.mainloop()

@@ -140,3 +140,13 @@ python task_1.py
 
 python task_2.py
 ```
+
+# Assignment 6
+
+## Task: Create a calculator using Tkinter
+- calculator application is divided in two frames (topframe, bottomframe).
+- topframe contains Entry box that acts as a display.
+- bottomframe contains buttons
+- clear button clears the entry box
+- equal button evaluates the calculation and dispays the result on the entry box
+- (+,-,/,*) these buttons and number buttons display numbers and signs on the entry box
