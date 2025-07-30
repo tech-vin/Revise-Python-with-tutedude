@@ -109,16 +109,16 @@ Using file handling knowldge from the previous assignment, This Python program a
 
 Here is a quick walkthough of code:
 1. **add_details(name, marks)**
-- Creates new file if not present already 
-- Appends a new student's name and marks to the file.
+    - Creates new file if not present already 
+    - Appends a new student's name and marks to the file.
 
 2. **fetch_details()**
-- Reads the file and returns dictionry of all student records.
+    - Reads the file and returns dictionry of all student records.
 
 3. **Menu-Driven Interface**
-- Using while loop I keep on displaying a menu
-    (1. Add Details 2. fetch Details 3. Exit)
-- The loop terminates on 3.
+    - Using while loop I keep on displaying a menu
+        (1. Add Details 2. fetch Details 3. Exit)
+    - The loop terminates on 3.
 
 
 ## Task 2: Demonstrate List Slicing 
