@@ -105,7 +105,21 @@ python task_2.py
 **Note:** Navigate inside the `Assignment-5` directory
 
 ## Task 1: Create a Dictionary of Student Marks
-Using file handling knowldge from the previous assignment, wrote a program that stores student name and marks on the file and fetches as per the requirement. User can add more data, fetch student's marks with their name.
+Using file handling knowldge from the previous assignment, This Python program allows users to store, retrieve, and manage student marks using a simple text file as a persistent storage medium. It demonstrates the use of file handling, dictionaries, and basic user interaction through a menu-driven interface.
+
+Here is a quick walkthough of code:
+1. **add_details(name, marks)**
+- Creates new file if not present already 
+- Appends a new student's name and marks to the file.
+
+2. **fetch_details()**
+- Reads the file and returns dictionry of all student records.
+
+3. **Menu-Driven Interface**
+- Using while loop I keep on displaying a menu
+    (1. Add Details 2. fetch Details 3. Exit)
+- The loop terminates on 3.
+
 
 ## Task 2: Demonstrate List Slicing 
 - Creates a list of numbers from 1 to 10.
