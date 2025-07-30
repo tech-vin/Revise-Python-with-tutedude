@@ -1,7 +1,7 @@
 from tkinter import *
 
 window = Tk()
-window.geometry("300x400")
+window.geometry("300x420")
 window.title("Calculator")
 
 topfame = Frame(
@@ -24,11 +24,12 @@ bottomFrame.pack(side=BOTTOM)
 
 textspace = Text(
     topfame,
-    height=1,
+    height=2,
     width=30,
     padx=2,
     pady=2,
-    borderwidth=5
+    borderwidth=5,
+    font=('Arial 15')
 )
 textspace.pack(fill=Y, expand=True)
 
